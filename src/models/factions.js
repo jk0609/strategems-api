@@ -1,10 +1,10 @@
-import mongoose from 'mongoose';
+const mongoose = require('mongoose');
 
 const factionSchema = new mongoose.Schema({
   name: {
     type: String,
-    unique: true,
-  },
+    unique: true
+  }
 });
 
 const Faction = mongoose.model('Faction', factionSchema);
