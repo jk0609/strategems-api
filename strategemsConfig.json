@@ -1,12 +1,27 @@
 [
   {
-    "name": "Vortex Missile",
-    "rulesText": "Use this Stratagem before you fire a Deathstrik Missile. You can re-roll failed hit rolls for this shot. In addtion, add 1 to the roll to determine whether other units within 6\" are hit. If a model is wounded but not slain by the attack, roll another dice; on a 6, the model suffers a further D6 mortal wounds.",
-    "cost": 3
+    "factionName": "ig",
+    "strats": [
+      {
+        "name": "Vortex Missile",
+        "rulesText": "Use this Stratagem before you fire a Deathstrik Missile. You can re-roll failed hit rolls for this shot. In addtion, add 1 to the roll to determine whether other units within 6\" are hit. If a model is wounded but not slain by the attack, roll another dice; on a 6, the model suffers a further D6 mortal wounds.",
+        "cost": 3
+      },
+      {
+        "name": "Jury Rigging",
+        "rulesText": "Use this Strategem at the start of your turn. Select an ASTRA MILITARUM VEHICLE from your army. It cannot move, charge or pile in this turn, but immediately heals one wound.",
+        "cost": 1
+      }
+    ]
   },
   {
-    "name": "Jury Rigging",
-    "rulesText": "Use this Strategem at the start of your turn. Select an ASTRA MILITARUM VEHICLE from your army. It cannot move, charge or pile in this turn, but immediately heals one wound.",
-    "cost": 1
+    "factionName": "de",
+    "strats": [
+      {
+        "name": "Fire and Fade",
+        "rulesText": "I dunno do some stuff. Shoot and scoot.",
+        "cost": 2
+      }
+    ]
   }
 ]

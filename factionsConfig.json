@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Astra Militarum",
+    "shortName": "ig"
+  },
+  {
+    "name": "Drukhari",
+    "shortName": "de"
+  },
+  {
+    "name": "Death Guard",
+    "shortName": "dg"
+  },
+  {
+    "name": "Orks",
+    "shortName": "orks"
+  },
+  {
+    "name": "Adeptus Mechanicus",
+    "shortName": "admech"
+  }
+]

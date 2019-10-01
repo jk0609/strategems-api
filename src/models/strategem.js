@@ -17,10 +17,10 @@ const strategemSchema = new mongoose.Schema({
   //   type: String,
   //   unique: true,
   // },
-  // faction: {
-  //   type: Number,
-  //   unique: true,
-  // },
+  faction: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'Faction'
+  },
   cost: {
     type: Number,
     unique: true
