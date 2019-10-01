@@ -5,24 +5,18 @@ const strategemSchema = new mongoose.Schema({
     type: String,
     unique: true
   },
-  // source: {
-  //   type: String,
-  //   unique: true,
-  // },
   rulesText: {
     type: String,
     unique: true
   },
-  // flavorText: {
-  //   type: String,
-  //   unique: true,
-  // },
+  flavorText: {
+    type: String
+  },
   faction: {
-    type: mongoose.Schema.Types.ObjectId,
-    ref: 'Faction'
+    type: String
   },
   cost: {
-    type: Number,
+    type: [Number],
     unique: true
   }
 });

@@ -1,27 +1,58 @@
 [
   {
-    "factionName": "ig",
-    "strats": [
-      {
-        "name": "Vortex Missile",
-        "rulesText": "Use this Stratagem before you fire a Deathstrik Missile. You can re-roll failed hit rolls for this shot. In addtion, add 1 to the roll to determine whether other units within 6\" are hit. If a model is wounded but not slain by the attack, roll another dice; on a 6, the model suffers a further D6 mortal wounds.",
-        "cost": 3
-      },
-      {
-        "name": "Jury Rigging",
-        "rulesText": "Use this Strategem at the start of your turn. Select an ASTRA MILITARUM VEHICLE from your army. It cannot move, charge or pile in this turn, but immediately heals one wound.",
-        "cost": 1
-      }
-    ]
+    "name": "Vortex Missile",
+    "rulesText": "Use this Stratagem before you fire a Deathstrik Missile. You can re-roll failed hit rolls for this shot. In addtion, add 1 to the roll to determine whether other units within 6\" are hit. If a model is wounded but not slain by the attack, roll another dice; on a 6, the model suffers a further D6 mortal wounds.",
+    "flavorText": "Vortex Missiles are amongst the most lethal and horrific warheads available to the Astra Militarum. Upon impact, these weapons tear a hole in the very fabric of reality, draining everything within a wide blast radius into the warp.",
+    "cost": [3],
+    "faction": "ig"
   },
   {
-    "factionName": "de",
-    "strats": [
-      {
-        "name": "Fire and Fade",
-        "rulesText": "I dunno do some stuff. Shoot and scoot.",
-        "cost": 2
-      }
-    ]
+    "name": "Jury Rigging",
+    "rulesText": "Use this Strategem at the start of your turn. Select an ASTRA MILITARUM VEHICLE from your army. It cannot move, charge or pile in this turn, but immediately heals one wound.",
+    "flavorText": "Imperial tank jockeys and Enginseers have devised a number of improvised mechanical techniques to get their damaged steeds back into the fight.",
+    "cost": [1],
+    "faction": "ig"
+  },
+  {
+    "name": "Fire On My Position",
+    "rulesText": "Use this Stratagem when the last model is slain from an ASTRA MILITARUM unit from your army equipped with a vox-caster. Before removing the model, roll a D6 for each unit within 3\" of it. On a 4+ that unit suffers D3 mortal wounds.",
+    "flavorText": "Even as they are overwhelmed, brave soldiers of the Astra Militarum may carry out one last act of vengeful defiance, calling in a creeping bombardment on their own position.",
+    "cost": [3],
+    "faction": "ig"
+  },
+  {
+    "name": "Consolidate Squads",
+    "rulesText": "Use this Stratagem at the end of your Movement phase. Choose an Infantry Squad from your army that is within 2\" of another of your Infantry Squads from the same <REGIMENT>. You can merge these squads into a single unit and they are treated as such for the rest of the battle.",
+    "flavorText": "Astra Militarum officers must quickly learn to adapt in the thick of battle, forming ad hoc fire teams from the fragments of depleted infantry squads.",
+    "cost": [1],
+    "faction": "ig"
+  },
+  {
+    "name": "Crush Them!",
+    "rulesText": "Use this Stratagem at the start of the Charge phase. Select an ASTRA MILITARUM VEHICLE unit from your army. This unit can charge even if it Advanced this turn. In the following Fight phase, attacks made by this unit hit on a 2+.",
+    "flavorText": "Should the enemy be too close to engage with heavy cannons, Imperial armour will simply rumble forward to crush them beneath their grinding treads.",
+    "cost": [1],
+    "faction": "ig"
+  },
+  {
+    "name": "Imperial Commander's Armory",
+    "rulesText": "Use this Stratagem before the battle. Your army can have one extra relic from the Heirlooms of Conquest for 1 CP, or two extra relics for 3 CPs. All of the relics that you include must be different and be given to different ASTRA MILITARUM CHARACTERS. You can only use this Stratagem once per battle.",
+    "flavorText": "By leveraging their considerable influence upon the Departmento Munitorum, high-ranking Imperial commanders can secure vital resources for their military campaigns.",
+    "cost": [1, 3],
+    "faction": "ig"
+  },
+  {
+    "name": "Aerial Spotter",
+    "rulesText": "Use this Stratagem at the start of the Shooting phase. Select a BASILISK or WYVERN model from your army. You can re-roll failed hit rolls for this unit in this phase.",
+    "flavorText": "Aeronautica Imperialis recon planes send back pinpoint coordinates to artillery positions, allowing them to unleash a punishingly accurate salvo.",
+    "cost": [2],
+    "faction": "ig"
+  },
+  {
+    "name": "Officio Prefectus Command Tank",
+    "rulesText": "Use this Stratagem at the start of the first battle round, before the first turn begins. Select a LEMAN RUSS from your army. All friendly ASTRA MILITARUM units have a Leadership characteristic of 9 (unless it would otherwise be higher) whilst they are within 6\" of this vehicle.",
+    "flavorText": "Many regimental Commissars prefer to bellow threats and orders from the cupola of a Leman Russ battle tank.",
+    "cost": [2],
+    "faction": "ig"
   }
 ]
