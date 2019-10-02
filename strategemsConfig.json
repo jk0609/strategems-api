@@ -4,55 +4,226 @@
     "rulesText": "Use this Stratagem before you fire a Deathstrik Missile. You can re-roll failed hit rolls for this shot. In addtion, add 1 to the roll to determine whether other units within 6\" are hit. If a model is wounded but not slain by the attack, roll another dice; on a 6, the model suffers a further D6 mortal wounds.",
     "flavorText": "Vortex Missiles are amongst the most lethal and horrific warheads available to the Astra Militarum. Upon impact, these weapons tear a hole in the very fabric of reality, draining everything within a wide blast radius into the warp.",
     "cost": [3],
-    "faction": "ig"
+    "faction": "ig",
+    "sub-faction": null,
+    "vigilus": null
   },
   {
     "name": "Jury Rigging",
     "rulesText": "Use this Strategem at the start of your turn. Select an ASTRA MILITARUM VEHICLE from your army. It cannot move, charge or pile in this turn, but immediately heals one wound.",
     "flavorText": "Imperial tank jockeys and Enginseers have devised a number of improvised mechanical techniques to get their damaged steeds back into the fight.",
     "cost": [1],
-    "faction": "ig"
+    "faction": "ig",
+    "sub-faction": null,
+    "vigilus": null
   },
   {
     "name": "Fire On My Position",
     "rulesText": "Use this Stratagem when the last model is slain from an ASTRA MILITARUM unit from your army equipped with a vox-caster. Before removing the model, roll a D6 for each unit within 3\" of it. On a 4+ that unit suffers D3 mortal wounds.",
     "flavorText": "Even as they are overwhelmed, brave soldiers of the Astra Militarum may carry out one last act of vengeful defiance, calling in a creeping bombardment on their own position.",
     "cost": [3],
-    "faction": "ig"
+    "faction": "ig",
+    "sub-faction": null,
+    "vigilus": null,
+    "sub-faction": null,
+    "vigilus": null
   },
   {
     "name": "Consolidate Squads",
     "rulesText": "Use this Stratagem at the end of your Movement phase. Choose an Infantry Squad from your army that is within 2\" of another of your Infantry Squads from the same <REGIMENT>. You can merge these squads into a single unit and they are treated as such for the rest of the battle.",
     "flavorText": "Astra Militarum officers must quickly learn to adapt in the thick of battle, forming ad hoc fire teams from the fragments of depleted infantry squads.",
     "cost": [1],
-    "faction": "ig"
+    "faction": "ig",
+    "sub-faction": null,
+    "vigilus": null
   },
   {
     "name": "Crush Them!",
     "rulesText": "Use this Stratagem at the start of the Charge phase. Select an ASTRA MILITARUM VEHICLE unit from your army. This unit can charge even if it Advanced this turn. In the following Fight phase, attacks made by this unit hit on a 2+.",
     "flavorText": "Should the enemy be too close to engage with heavy cannons, Imperial armour will simply rumble forward to crush them beneath their grinding treads.",
     "cost": [1],
-    "faction": "ig"
+    "faction": "ig",
+    "sub-faction": null,
+    "vigilus": null
   },
   {
     "name": "Imperial Commander's Armory",
     "rulesText": "Use this Stratagem before the battle. Your army can have one extra relic from the Heirlooms of Conquest for 1 CP, or two extra relics for 3 CPs. All of the relics that you include must be different and be given to different ASTRA MILITARUM CHARACTERS. You can only use this Stratagem once per battle.",
     "flavorText": "By leveraging their considerable influence upon the Departmento Munitorum, high-ranking Imperial commanders can secure vital resources for their military campaigns.",
     "cost": [1, 3],
-    "faction": "ig"
+    "faction": "ig",
+    "sub-faction": null,
+    "vigilus": null
   },
   {
     "name": "Aerial Spotter",
     "rulesText": "Use this Stratagem at the start of the Shooting phase. Select a BASILISK or WYVERN model from your army. You can re-roll failed hit rolls for this unit in this phase.",
     "flavorText": "Aeronautica Imperialis recon planes send back pinpoint coordinates to artillery positions, allowing them to unleash a punishingly accurate salvo.",
     "cost": [2],
-    "faction": "ig"
+    "faction": "ig",
+    "sub-faction": null,
+    "vigilus": null
   },
   {
     "name": "Officio Prefectus Command Tank",
     "rulesText": "Use this Stratagem at the start of the first battle round, before the first turn begins. Select a LEMAN RUSS from your army. All friendly ASTRA MILITARUM units have a Leadership characteristic of 9 (unless it would otherwise be higher) whilst they are within 6\" of this vehicle.",
     "flavorText": "Many regimental Commissars prefer to bellow threats and orders from the cupola of a Leman Russ battle tank.",
     "cost": [2],
-    "faction": "ig"
+    "faction": "ig",
+    "sub-faction": null,
+    "vigilus": null
+  },
+  {
+    "name": "Mobile Command Vehicle",
+    "rulesText": "Use this Stratagem at the start of any turn. Choose a Chimera from your army. Until the end of the turn, an OFFICER from your army with the Voice of Command ability may still issue orders whilst embarked within that Chimera (measuring ranges from any point on the vehicle), and is treated as being within 3\" of a vox-caster.",
+    "flavorText": "Command vehicles allow intrepid officers to lead from the front of the battle, racing across the lines, raising the spirits of their warriors and reacting with speed to any emerging threats.",
+    "cost": [1],
+    "faction": "ig",
+    "sub-faction": null,
+    "vigilus": null
+  },
+  {
+    "name": "Take Cover!",
+    "rulesText": "Use this Stratagem in your opponent's Shooting phase when your opponent selects one of your ASTRA MILITARUM INFANTRY units as a target. You can add 1 to saving throws you make for this unit until the end of the phase.",
+    "flavorText": "Sometimes the only possible response to overwhelming enemy fire is to hit the dirt and wait for the storm to pass, before springing up to unleash an answering volley.",
+    "cost": [1],
+    "faction": "ig",
+    "sub-faction": null,
+    "vigilus": null
+  },
+  {
+    "name": "Preliminary Bombardment",
+    "rulesText": "Use this Stratagem after both sides have deployed, but before the first battle round begins. Roll a dice for each enemy unit on the battlefield. On a 6, that unit suffers 1 mortal wound. You can only use this Stratagem once per battle.",
+    "flavorText": "An Astra Militarum assault often begins with an initial bombardment of the enemy line, softening up the foe before the mass advance of infantry and armour.",
+    "cost": [2],
+    "faction": "ig",
+    "sub-faction": null,
+    "vigilus": null
+  },
+  {
+    "name": "Grenadiers",
+    "rulesText": "Use this Stratagem before an ASTRA MILITARUM INFANTRY unit from your army shoots or fires Overwatch. Up to ten models in the unit that are armed with grenades can throw a grenade this phase, instead of only one model being able to do so.",
+    "flavorText": "Against packed formations of enemy infantry, a favoured tactic of Astra Militarum assault troops is to hurl an opening salvo of grenades en masse.",
+    "cost": [1],
+    "faction": "ig",
+    "sub-faction": null,
+    "vigilus": null
+  },
+  {
+    "name": "Inspired Tactics",
+    "rulesText": "Use this Stratagem after an OFFICER from your army has issued an order or tank order. That officer may immediately issue an additional order.",
+    "flavorText": "A skilled officer can turn a battle on its head, throwing the enemy into confusion and inspiring their own soldiers to acts of remarkable heroism.",
+    "cost": [1],
+    "faction": "ig",
+    "sub-faction": null,
+    "vigilus": null
+  },
+  {
+    "name": "Fight To The Death",
+    "rulesText": "Use this Stratagem at the start of the Morale phase. Pick an ASTRA MILITARUM INFANTRY unit from your army that is required to take a Morale test. You can roll a D3 for the unit, rather than a D6, when taking this test.",
+    "flavorText": "hey may be mere mortals in a galaxy of gods and monsters, but the soldiers of the Astra Militarum stand tall in the face of obliteration, lasguns blazing.",
+    "cost": [1],
+    "faction": "ig",
+    "sub-faction": null,
+    "vigilus": null
+  },
+  {
+    "name": "Defensive Gunners",
+    "rulesText": "Use this Stratagem when a charge is declared against one of your ASTRA MILITARUM VEHICLE units. When that unit fires Overwatch this phase, they successfully hit on a roll of 5 or 6, instead of only 6.",
+    "flavorText": "As enemy anti-armour troops advance upon their vehicles, sponson and turret gunners unleash a devastating hail of fire.",
+    "cost": [1],
+    "faction": "ig",
+    "sub-faction": null,
+    "vigilus": null
+  },
+  {
+    "name": "Go! Recon!",
+    "rulesText": "Use this Stratagem at the start of your Shooting phase. Select a unit of Scout Sentinels from your army. This unit can immediately move 2D6\" but cannot shoot or charge this turn.",
+    "flavorText": "Scout Sentinels can sacrifice firepower for speed, darting across the battlefield in search of new threats.",
+    "cost": [1],
+    "faction": "ig",
+    "sub-faction": null,
+    "vigilus": null
+  },
+  {
+    "name": "Vengeance For Cadia!",
+    "rulesText": "Use this Stratagem when you select one of your ASTRA MILITARUM units to shoot or fire Overwatch. Re-roll failed hit and wound rolls for models in this unit that target Chaos units until the end of the phase.",
+    "flavorText": "Soldiers of the Astra Militarum yearn to visit destruction upon those responsible for the fall of mighty Cadia.",
+    "cost": [1],
+    "faction": "ig",
+    "sub-faction": null,
+    "vigilus": null
+  },
+  {
+    "name": "Volley Fire",
+    "rulesText": "Use this Stratagem before a MORDIAN INFANTRY unit from your army shoots in the Shooting phase. Each time you make a hit roll of 6+ for a model in that unit, that model can immediately shoot again with the same weapon at the same target (these bonus attacks cannot themselves generate any further attacks).",
+    "flavorText": "Mordian troops are trained to hold their fire until the perfect moment, before unleashing a single, devastatingly accurate volley that cuts the foe to pieces.",
+    "cost": [1],
+    "faction": "ig",
+    "sub-faction": "mordian",
+    "vigilus": null
+  },
+  {
+    "name": "Superior Intelligence",
+    "rulesText": "Use this Stratagem immediately after your opponent sets up a unit that is arriving on the battlefield as reinforcements within 12\" of one of your MILITARUM TEMPESTUS INFANTRY units. Your unit can immediately shoot at that enemy unit as if it were the Shooting phase, but you must subtract 1 from all the resulting hit rolls.",
+    "flavorText": "Storm troopers of the Militarum Tempestus have access to the latest operational intelligence, and are ready to greet enemy reinforcements with a hail of hot-shot rounds.",
+    "cost": [1],
+    "faction": "ig",
+    "sub-faction": "militarum-tempestus",
+    "vigilus": null
+  },
+  {
+    "name": "Overlapping Fields Of Fire",
+    "rulesText": "Use this Stratagem after a CADIAN unit from your army has inflicted an unsaved wound on an enemy unit in the Shooting phase. You can add 1 to hit rolls for any other Cadian units from your army that target the same enemy unit this phase.",
+    "flavorText": "Cadian combat doctrine utilises the intense concentration of firepower, focused upon the most dangerous enemy targets.",
+    "cost": [2],
+    "faction": "ig",
+    "sub-faction": "cadian",
+    "vigilus": null
+  },
+  {
+    "name": "Ambush",
+    "rulesText": "Use this Strategem during deployment. Choose up to three TALLARN units to be set up in ambush instead of placing them on the battlefield (only one of these units can have the VEHICLE keyword). At the end of any of your Movement phases these units can strike from hiding – set each of them up wholly within 7\" of any battlefield edge and more than 9\" from any enemy models.",
+    "flavorText": "The Tallarns launch their assault from multiple directions, fixing the enemy in a lethal crossfire and throwing them into terrified confusion.",
+    "cost": [3],
+    "faction": "ig",
+    "sub-faction": "tallarn",
+    "vigilus": null
+  },
+  {
+    "name": "Send In The Next Wave!",
+    "rulesText": "Use this Stratagem at the end of your Movement phase. Select a VALHALLAN INFANTRY unit from your army (excluding CHARACTERS and Infantry Squads that have used the Combined Squads Stratagem) that was destroyed earlier in the battle. Set up this unit wholly within your deployment zone, within 6\" of the edge of the battlefield and more than 9\" from any enemy models.",
+    "flavorText": "Valhallan regiments drown the enemy under sheer weight of numbers, wearing them down with endless infantry assaults.",
+    "cost": [2],
+    "faction": "ig",
+    "sub-faction": "valhallan",
+    "vigilus": null
+  },
+  {
+    "name": "Armored Fist",
+    "rulesText": "Use this Stratagem at the start of your Shooting phase. Select an ARMAGEDDON INFANTRY unit from your army that disembarked from an ARMAGEDDON TRANSPORT VEHICLE this turn. You can re-roll hit rolls of 1 for that unit until the end of the phase.",
+    "flavorText": "The Armageddon Steel Legions have perfected the art of the mechanised assault. Gas-masked troopers leap from their transports into the heart of the foe, lasguns blasting.",
+    "cost": [1],
+    "faction": "ig",
+    "sub-faction": "armageddon",
+    "vigilus": null
+  },
+  {
+    "name": "Firstborn Pride",
+    "rulesText": "Use this Stratagem at the start of your Shooting phase. Select a VOSTROYAN unit from your army. You can add 1 to hit rolls made for this unit until the end of the phase.",
+    "flavorText": "Driven to repay their home world’s ancient debt, the Vostroyan Firstborn fight with prideful defiance, seeing each battle as a chance to reclaim their honour.",
+    "cost": [1],
+    "faction": "ig",
+    "sub-faction": "vostroyan",
+    "vigilus": null
+  },
+  {
+    "name": "Vicious Traps",
+    "rulesText": "Use this Stratagem when an enemy unit finishes a charge move within 1\" of a CATACHAN unit from your army that is wholly on or within a terrain feature. Roll a dice; on a 4+ that enemy unit suffers D3 mortal wounds.",
+    "flavorText": "Catachan Jungle Fighters lace the ground ahead of their defences with all manner of lethal devices, including snare mines, razor-shard tripwires and incendiary charges.",
+    "cost": [1],
+    "faction": "ig",
+    "sub-faction": "catachan",
+    "vigilus": null
   }
 ]
