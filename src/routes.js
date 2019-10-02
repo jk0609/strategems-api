@@ -6,7 +6,8 @@ module.exports = app => {
     res.send('home');
   });
 
-  app.get('/strats/:faction', strategems.getFactionStrategems);
+  // passing query string ?factions=
+  app.get('/strats', strategems.getFactionStrategems);
   app.post('/strats/populate', strategems.populateStrategems);
 
   app.get('/factions', factions.getAllFactions);

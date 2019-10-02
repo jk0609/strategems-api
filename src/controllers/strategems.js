@@ -3,7 +3,8 @@ const Strategem = require('../models/strategem');
 
 exports.getFactionStrategems = async (req, res) => {
   try {
-    var result = await Strategem.find({ faction: req.params.faction });
+    let factions = req.query.factions.split(',');
+    let result = await Strategem.find({ faction: { $in: factions } });
     res.send(result);
   } catch (error) {
     res.status(500).send(error);

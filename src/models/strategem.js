@@ -10,13 +10,23 @@ const strategemSchema = new mongoose.Schema({
     unique: true
   },
   flavorText: {
-    type: String
+    type: String,
+    unique: true
   },
   faction: {
-    type: String
+    type: String,
+    unique: true
   },
   cost: {
     type: [Number],
+    unique: true
+  },
+  vigilus: {
+    type: String,
+    unique: true
+  },
+  subfaction: {
+    type: String,
     unique: true
   }
 });
